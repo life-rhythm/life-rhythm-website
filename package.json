@@ -1,0 +1,30 @@
+{
+  "name": "life-rhythm-website",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "debug": "postcss site/static/css/input.css --verbose --config debug --output site/static/css/style.css",
+    "build": "postcss site/static/css/input.css --verbose --config build --output site/static/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/life-rhythm/life-rhythm-website.git"
+  },
+  "keywords": [
+    "webiste"
+  ],
+  "author": "Eric Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/life-rhythm/life-rhythm-website/issues"
+  },
+  "homepage": "https://github.com/life-rhythm/life-rhythm-website#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "tailwindcss": "^3.3.5"
+  }
+}
