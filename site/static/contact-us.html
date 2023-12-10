@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Rhythm</title>
+    <!-- Include Tailwind CSS CDN or link to your locally hosted CSS file -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex h-screen justify-center items-center flex-col">
+        <div
+            class="bg-[url('/images/image1.jpg')] sm:bg-[url('/images/image1.jpg')] relative overflow-hidden bg-no-repeat bg-fixed bg-cover p-12 text-center h-screen w-full">
+            <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden backdrop-blur-md bg-slate/40">
+                <!--nav -->
+                <nav
+                    class="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between
+            bg-transparent py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
+                    <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+                        id="navbarSupportedContent1" data-te-collapse-item>
+                        <div class="flex w-full flex-wrap items-center justify-between px-3">
+                            <a href="/" class="flex justify-between">
+                                <p class="bg-clip-text text-2xl font-mplus font-extrabold text-white">Life</p>
+                                <p class="bg-clip-text italic font-mplus font-extrabold pl-1 text-2xl text-white">Rhythm
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="h-full items-center justify-center text-white max-w-full grid grid-cols-3">
+                    <div class="grid"></div>
+                    <div class="flex items-center justify-center p-1">
+                        <div class="mx-auto w-full max-w-[850px] text-left">
+                            <div class="justify-center grid">
+                                <h1 class="mb-5 font-bold text-2xl text-slate-50">Contact us</h1>
+                            </div>
+                            <form action="https://liferhythm.app/contact-us" method="POST">
+                                <div class="mb-5 align-baseline justify-start">
+                                    <label for="subject" class="mb-3 block text-base font-medium text-gray-150">
+                                        Subject
+                                    </label>
+                                    <input type="text" name="subject" id="subject" placeholder="Enter your subject"
+                                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                                </div>
+                                <div class="mb-5">
+                                    <label for="message" class="mb-3 block text-base font-medium text-gray-150">
+                                        Message
+                                    </label>
+                                    <textarea rows="4" name="message" id="message" placeholder="Type your message"
+                                        class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"></textarea>
+                                </div>
+                                <div>
+                                    <button
+                                        class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

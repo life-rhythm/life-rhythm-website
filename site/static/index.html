@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life Rhythm</title>
-    <!-- Include Tailwind CSS CDN or link to your locally hosted CSS file -->
-    <link href="./css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="flex h-screen justify-center items-center flex-col">
-      <!-- Background blur image -->
-      <div class="bg-[url('/images/image1.jpg')] sm:bg-[url('/images/image1.jpg')] relative overflow-hidden rounded-lg bg-no-repeat bg-fixed bg-cover p-12 text-center h-screen w-full">
-        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden backdrop-blur-md bg-slate/40">
-          <!--nav -->
-          <nav class="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between
-            bg-transparent py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
-            <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
-              id="navbarSupportedContent1" data-te-collapse-item>
-              <div class="flex w-full flex-wrap items-center justify-between px-3">
-                <a href="#" class="flex justify-between">
-                  <p class="bg-clip-text text-2xl font-mplus font-extrabold text-white">Life</p>
-                  <p class="bg-clip-text italic font-mplus font-extrabold pl-1 text-2xl text-white">Rhythm</p>
-                </a>
-                <ul class="flex space-x-4">
-                  <li><a href="#contact" class="pr-10 font-mplus font-serif font-medium hover:text-white text-gray-400 transition duration-300">Contact us</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="flex h-full items-center justify-center text-white grid-cols-2">
-            <div class="mx-auto px-4">
-              <div class="flex justify-items-center">
-                <div class="grid grid-cols-3 gap-8 pb-5 sm:grid-flow-row">
-                  <div class="grid justify-items-end items-center">
-                    <div class="shrink-0 rounded-xl flex items-center bg-white box-content box-border h-20 w-20">
-                      <image src="/images/logo.svg"  />
-                    </div>
-                  </div>
 
-                  <div class="grid items-center">
-                    <div class="content-center">
-                      <div class="flex justify-start text-end">
-                        <span class="text-4xl font-mplus text-left">GLUCOSLATOR</span>
-                      </div>
-                      <div>
-                        <p class="text-xl text-left font-mplus text-gray-50">Converting gluocos reading</p>
-                      </div>
-                      <div class="!visible hidden md:!flex md:basis-auto ">
-                        <div class="grid justify-start items-stretch ">
-                          <div class="shrink-0 rounded-xl bg-transparent flex self-center h-17 w-55 pt-5">
-                            <a href="#" class="shrink-0 bg-transparent border-none">
-                              <image src="/images/appstore-dark.svg" class="sm:hidden border-none bg-transparent h-17 w-55 " />
-                            </a>
-                          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Rhythm</title>
+  <!-- Include Tailwind CSS CDN or link to your locally hosted CSS file -->
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="flex h-screen justify-center items-center flex-col">
+    <!-- Background blur image -->
+    <div
+      class="bg-[url('/images/image1.jpg')] sm:bg-[url('/images/image1.jpg')] relative overflow-hidden bg-no-repeat bg-fixed bg-cover p-12 text-center h-screen w-full">
+      <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden backdrop-blur-md bg-slate/40">
+        <!--nav -->
+        <nav
+          class="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between
+            bg-transparent py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
+          <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+            id="navbarSupportedContent1" data-te-collapse-item>
+            <div class="flex w-full flex-wrap items-center justify-between px-3">
+              <a href="#" class="flex justify-between">
+                <p class="bg-clip-text text-2xl font-mplus font-extrabold text-white">Life</p>
+                <p class="bg-clip-text italic font-mplus font-extrabold pl-1 text-2xl text-white">Rhythm</p>
+              </a>
+              <ul class="flex space-x-4">
+                <li><a href="./contact-us.html"
+                    class="pr-10 font-mplus font-serif font-medium hover:text-white text-gray-400 transition duration-300">
+                    Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="flex h-full items-center justify-center text-white grid-cols-2">
+          <div class="mx-auto px-4">
+            <div class="flex justify-items-center">
+              <div class="grid grid-cols-3 gap-8 pb-5 sm:grid-flow-row">
+                <div class="grid justify-items-end items-center">
+                  <div class="shrink-0 rounded-xl flex items-center bg-white box-content box-border h-20 w-20">
+                    <image src="/images/logo.svg" />
+                  </div>
+                </div>
+
+                <div class="grid items-center">
+                  <div class="content-center">
+                    <div class="flex justify-start text-end">
+                      <span class="text-4xl font-mplus text-left">GLUCOSLATOR</span>
+                    </div>
+                    <div>
+                      <p class="text-xl text-left font-mplus text-gray-50">Converting glucose reading</p>
+                    </div>
+                    <div class="!visible hidden md:!flex md:basis-auto ">
+                      <div class="grid justify-start items-stretch ">
+                        <div class="shrink-0 rounded-xl bg-transparent flex self-center h-17 w-55 pt-5">
+                          <a href="#" class="shrink-0 bg-transparent border-none">
+                            <image src="/images/appstore-dark.svg"
+                              class="sm:hidden border-none bg-transparent h-17 w-55 " />
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="grid justify-start">
-                    <div class="grid justify-start items-stretch ">
-                      <div class="shrink-0 rounded-xl bg-transparent flex self-stretch h-90 w-60">
-                        <image src="/images/mockup.png" class="border-none bg-transparent " />
-                      </div>
+                </div>
+                <div class="grid justify-start">
+                  <div class="grid justify-start items-stretch ">
+                    <div class="shrink-0 rounded-xl bg-transparent flex self-stretch h-90 w-60">
+                      <image src="/images/mockup.png" class="border-none bg-transparent " />
                     </div>
-
                   </div>
+
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
-  </body>
+</body>
+
 </html>
